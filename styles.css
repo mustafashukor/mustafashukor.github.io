@@ -17,7 +17,8 @@ body {
 }
 
 .container {
-  text-align: left;
+    text-align: left;
+    margin-left: 100px; /* Adjust this value to control how far right you want to push the content */
 }
 
 h1 {
