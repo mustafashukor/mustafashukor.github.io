@@ -44,8 +44,7 @@ h1 {
 .links img {
   width: 100%;
   height: 100%;
-  filter: invert(100%) grayscale(90%) brightness(70%); /* Adjust brightness for lighter or darker gray */
-
+  filter: brightness(0) saturate(100%) invert(85%) sepia(0%) saturate(500%) hue-rotate(0deg) brightness(95%);
 }
 
 .links a:hover {
