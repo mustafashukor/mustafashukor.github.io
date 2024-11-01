@@ -22,13 +22,13 @@ body {
 
 h1 {
   font-size: 4em; /* Larger font size for the name */
-  color: #ffffff; /* White color for the name */
+  color: #cecccc; /* White color for the name */
   margin-bottom: 10px;
 }
 
 .description {
   font-size: 1.2em;
-  color: #aaaaaa; /* Slightly lighter color for the description */
+  color: #9e9d9d; /* Slightly lighter color for the description */
   margin-bottom: 20px;
 }
 
