@@ -6,7 +6,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html{
+    font-family: IBM Plex Mono;
+}
 body {
   background-color: #121212;
   color: #ffffff;
@@ -16,7 +18,6 @@ body {
   padding-left: 30px; /* Move content slightly to the left */
   height: 100vh;
   margin: 0;
-  font-family: 'Source Code Pro', monospace; /* Coding-style font */
 }
 
 .container {
