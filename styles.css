@@ -1,13 +1,8 @@
 /* styles.css */
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-html{
-    font-family: IBM Plex Mono;
 }
 body {
   background-color: #121212;
@@ -18,6 +13,7 @@ body {
   padding-left: 30px; /* Move content slightly to the left */
   height: 100vh;
   margin: 0;
+  font-family: 'IBM Plex Mono', monospace; /* Apply IBM Plex Mono font */
 }
 
 .container {
