@@ -5,12 +5,12 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #121212;
-  color: #ffffff;
+  background-color: #171717;
+  color: #666;
   display: flex;
   align-items: center;
   justify-content: flex-start; /* Align content to the left */
-  padding-left: 30px; /* Move content slightly to the left */
+  padding-left: 50px; /* Move content slightly to the left */
   height: 100vh;
   margin: 0;
   font-family: 'IBM Plex Mono', monospace; /* Apply IBM Plex Mono font */
