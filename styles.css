@@ -5,8 +5,8 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #171717;
-  color: #e2e2e2;
+  background-color: #0f0f0fe7;
+  color: #f0f0f0;
   display: flex;
   align-items: center;
   justify-content: flex-start; /* Align content to the left */
@@ -23,13 +23,13 @@ body {
 
 h1 {
   font-size: 3em; /* Larger font size for the name */
-  color: #e2e2e2; /* White color for the name */
+  color: #f0f0f0; /* White color for the name */
   margin-bottom: 10px;
 }
 
 .description {
   font-size: 1.2em;
-  color: #e2e2e2; /* Slightly lighter color for the description */
+  color: #f0f0f0; /* Slightly lighter color for the description */
   margin-bottom: 20px;
 }
 
