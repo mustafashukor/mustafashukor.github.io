@@ -5,8 +5,8 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #0f0f0fe7;
-  color: #f0f0f0;
+  background-color: #0a0a0af1;
+  color: #fafafaef;
   display: flex;
   align-items: center;
   justify-content: flex-start; /* Align content to the left */
@@ -23,7 +23,7 @@ body {
 
 h1 {
   font-size: 3em; /* Larger font size for the name */
-  color: #f0f0f0; /* White color for the name */
+  color: #fafafaef; /* White color for the name */
   margin-bottom: 10px;
 }
   
