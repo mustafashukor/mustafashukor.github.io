@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mustafa Shukor</title>
+
+  <!-- IBM Plex Mono font -->
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'IBM Plex Mono', monospace;
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100vh;
+    }
+
+    .container {
+      padding-left: 5vw;
+      max-width: 600px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .description {
+      font-size: 1rem;
+      color: #bbb;
+      margin-bottom: 2rem;
+    }
+
+    .links {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .links a img {
+      width: 28px;
+      height: 28px;
+      transition: opacity 0.2s ease;
+    }
+
+    .links a:hover img {
+      opacity: 0.6;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <h1>Mustafa Shukor</h1>
+    <p class="description">PhD Student at Sorbonne University</p>
+
+    <nav class="links" aria-label="Social links">
+      <a href="https://scholar.google.com/citations?user=lhp9mRgAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
+        <img src="assets/googlescholar.svg" alt="Google Scholar" />
+      </a>
+      <a href="https://github.com/mshukor" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <img src="assets/github.svg" alt="GitHub" />
+      </a>
+      <a href="https://x.com/MustafaShukor1" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+        <img src="assets/x.svg" alt="Twitter" />
+      </a>
+      <a href="mailto:mshukor.contact@gmail.com" aria-label="Email">
+        <img src="assets/gmail.svg" alt="Email" />
+      </a>
+    </nav>
+  </main>
+</body>
+</html>
