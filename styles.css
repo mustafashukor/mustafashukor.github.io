@@ -33,12 +33,18 @@ h1 {
   margin-bottom: 20px;
 }
 
+
+.links {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+  gap: 35px; /* Control spacing between icons */
+  margin-top: 20px;
+}
+
 .links a {
   display: inline-block;
-  margin: 15px;
-  width: 40px;
-  height: 100px;
-  transition: transform 0.3s;
+  width: 32px;
+  height: 32px;
 }
 
 .links img {
@@ -57,3 +63,71 @@ h1 {
 .links a:hover {
   transform: scale(1.1); /* Slight zoom effect on hover */
 }
+
+
+
+
+/* For news */
+
+.news {
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #f0f0f0;
+}
+
+.news h2 {
+  font-size: 1.4em;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.news ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.news li {
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+.news {
+  margin-top: 40px;
+  font-size: 0.82em; /* Slightly smaller font */
+  color: #f0f0f0;
+  max-width: 850px; /* Limit horizontal line width */
+}
+
+.news h2 {
+  font-size: 1.3em;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+.news ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.news li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.news .date {
+  color: #aaa;
+  font-weight: bold;
+  margin-right: 8px;
+  white-space: nowrap;
+}
+
+.highlight-link {
+  color: #7fff7f; /* Neon green */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.highlight-link:hover {
+  color: #b4ffb4; /* Softer green on hover */
+  text-decoration: underline;
+}
+
