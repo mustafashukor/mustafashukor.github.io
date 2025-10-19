@@ -33,7 +33,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-.sub-description {
+.description.sub-description {
   font-size: 0.85em; /* Smaller font size */
   color: #828282; /* Grayish color */
   margin-top: -15px; /* Adjust spacing between description lines */
