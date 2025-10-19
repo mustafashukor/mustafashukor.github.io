@@ -18,7 +18,7 @@ body {
 
 .container {
     text-align: left;
-    margin-left: 100px; /* Adjust this value to control how far right you want to push the content */
+    margin-left: 150px; /* Adjust this value to control how far right you want to push the content */
 }
 
 h1 {
@@ -28,9 +28,15 @@ h1 {
 }
   
 .description {
-  font-size: 0.9em;
+  font-size: 1.1em;
   color: #f0f0f0; /* Slightly lighter color for the description */
   margin-bottom: 20px;
+}
+
+.sub-description {
+  font-size: 0.85em; /* Smaller font size */
+  color: #828282; /* Grayish color */
+  margin-top: -15px; /* Adjust spacing between description lines */
 }
 
 
@@ -70,14 +76,15 @@ h1 {
 /* For news */
 
 .news {
-  margin-top: 40px;
+  margin-top: 60px; /* Replaces the <br> tags */
   font-size: 0.9em;
   color: #f0f0f0;
+  max-width: 1100px; /* Limit horizontal line width */
 }
 
 .news h2 {
   font-size: 1.4em;
-  margin-bottom: 15px;
+  margin-bottom: 20px; /* Increased space after "Updates" title */
   color: #fff;
 }
 
@@ -87,29 +94,7 @@ h1 {
 }
 
 .news li {
-  margin-bottom: 10px;
-  line-height: 1.4;
-}
-.news {
-  margin-top: 40px;
-  font-size: 0.82em; /* Slightly smaller font */
-  color: #f0f0f0;
-  max-width: 850px; /* Limit horizontal line width */
-}
-
-.news h2 {
-  font-size: 1.3em;
   margin-bottom: 12px;
-  color: #fff;
-}
-
-.news ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.news li {
-  margin-bottom: 10px;
   line-height: 1.5;
 }
 
@@ -123,11 +108,10 @@ h1 {
 .highlight-link {
   color: #7fff7f; /* Neon green */
   text-decoration: none;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .highlight-link:hover {
   color: #b4ffb4; /* Softer green on hover */
   text-decoration: underline;
 }
-
