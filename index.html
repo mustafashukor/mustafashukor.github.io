@@ -1,64 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mustafa Shukor</title>
-    <!-- Import IBM Plex Mono font from Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mustafa Shukor — founding research scientist at UMA. Work on vision-language models, VLAs, and scaling.">
+  <title>Mustafa Shukor — Research</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
-      
+
 <body>
-  <div class="container">
+  <main class="container">
     <h1>Mustafa Shukor</h1>
-    <p class="description">Founding Research Scientist (UMA). CS PhD (Sorbonne).</p>
-    <p class="description sub-description">Prev: FAIR (Meta), LeRobot (Hugging Face), MLR (Apple).</p>
-    <div class="links">
-      <a href="https://scholar.google.com/citations?user=lhp9mRgAAAAJ&hl=en" target="_blank" aria-label="Google Scholar">
-          <img src="assets/googlescholar.svg" alt="Google Scholar logo">
+    <p class="description">Founding Research Scientist (<img class="affil" src="assets/org-uma.svg" alt=""> UMA). CS PhD (<img class="affil" src="assets/org-sorbonne.svg" alt=""> Sorbonne).</p>
+    <p class="description sub-description">Prev: FAIR (<img class="affil" src="assets/org-meta.svg" alt=""> Meta), LeRobot (<img class="affil" src="assets/org-hf.svg" alt=""> Hugging Face), MLR (<img class="affil" src="assets/org-apple.svg" alt=""> Apple).</p>
+
+    <nav class="links" aria-label="Profiles">
+      <a href="https://scholar.google.com/citations?user=lhp9mRgAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
+        <img src="assets/googlescholar.svg" alt="">
       </a>
-      <a href="https://github.com/mshukor" target="_blank" aria-label="Github">
-          <img src="assets/github.svg" alt="Github">
+      <a href="https://github.com/mshukor" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <img src="assets/github.svg" alt="">
       </a>
-      <a href="https://huggingface.co/mshukor" target="_blank" aria-label="HF">
-          <img src="assets/hf-logo-pirate.svg" class="hf" alt="HF">
+      <a href="https://huggingface.co/mshukor" target="_blank" rel="noopener noreferrer" aria-label="Hugging Face">
+        <img src="assets/org-hf.svg" alt="">
       </a>
-      <a href="https://x.com/MustafaShukor1" target="_blank" aria-label="Twitter">
-          <img src="assets/x.svg" alt="Twitter logo">
+      <a href="https://x.com/MustafaShukor1" target="_blank" rel="noopener noreferrer" aria-label="X">
+        <img src="assets/x.svg" alt="">
       </a>
       <a href="mailto:mshukor.contact@gmail.com" aria-label="Email">
-          <img src="assets/gmail.svg" alt="Email logo">
+        <img src="assets/gmail.svg" alt="">
       </a>
-    </div>
-    <div class="news">
-      <h2>Updates</h2>
+    </nav>
 
-      <ul>
-        <li><span class="date">2025-12:</span>  Introducing <a href="https://www.arxiv.org/abs/2512.10942" target="_blank" class="highlight-link">VL-JEPA</a>, a vision-language model trained in the latent space.
-        <li><span class="date">2025-12:</span>  We are launching <a href="https://uma.bot/" target="_blank" class="highlight-link">UMA</a>, a company building general-purpose humanoids.
-        <li><span class="date">2025-11:</span>  <a href="https://github.com/huggingface/VLAb" target="_blank" class="highlight-link">VLAb</a> is out! Our codebase for VLAs pretraining, including <a href="https://arxiv.org/abs/2506.01844" target="_blank" class="highlight-link">SmolVLA</a>.
-        <li><span class="date">2025-09:</span>  <a href="https://github.com/apple/ml-l3m" target="_blank" class="highlight-link">l3m</a> is released. Our codebase for large-scale pretraining of <a href="https://arxiv.org/abs/2411.14402" target="_blank" class="highlight-link">AIMv2</a>, CLIP, <a href="https://arxiv.org/abs/2504.07951" target="_blank" class="highlight-link">Native VLMs</a> and LLMs.
-        <li><span class="date">2025-09:</span> 2 papers accepted at NeurIPS 2025: <a href="https://arxiv.org/abs/2507.09404" target="_blank" class="highlight-link">Scaling laws for optimal data mixtures</a> and <a href="https://arxiv.org/abs/2508.12815" target="_blank" class="highlight-link">Learning to Steer</a>.
-        <li><span class="date">2025-07:</span> We released our work on <a href="https://arxiv.org/abs/2507.09404" target="_blank" class="highlight-link">Scaling laws for optimal data mixtures</a>.
-        <li><span class="date">2025-07:</span> Our work on <a href="https://arxiv.org/abs/2504.07951" target="_blank" class="highlight-link">Scaling laws for native multimodal models</a> got an Oral (~top 2%) at ICCV 2025.
-        <li><span class="date">2025-07:</span> 2 papers accepted at ICCV 2025: <a href="https://arxiv.org/abs/2504.07951" target="_blank" class="highlight-link">Scaling laws for NMMs</a> and <a href="https://arxiv.org/abs/2504.07951" target="_blank" class="highlight-link">Multimodal Steering</a>.
-        <li><span class="date">2025-06:</span> We released <a href="https://x.com/MustafaShukor1/status/1929796105782329818" target="_blank" class="highlight-link">SmolVLA</a> an efficient foundation model for robotics:  <a href="https://arxiv.org/abs/2506.01844" target="_blank" class="highlight-link">paper</a>,  <a href="https://github.com/huggingface/lerobot/pull/1175" target="_blank" class="highlight-link">code</a>, and <a href="https://huggingface.co/blog/smolvla" target="_blank" class="highlight-link">blogpost</a>.
-        <li><span class="date">2025-02:</span> <a href="https://arxiv.org/abs/2411.14402" target="_blank" class="highlight-link">AIMv2</a> is accepted as a Spotlight paper (~top 5%) at CVPR 2025.
-        <li><span class="date">2024-11:</span> We released <a href="https://github.com/apple/ml-aim" target="_blank" class="highlight-link">AIMv2</a>, a SoTA large-scale vision encoder.
-        <li><span class="date">2024-09:</span> 
-          <a href="https://example.com/ima-paper" target="_blank" class="highlight-link">Implicit Multimodal Alignment</a>, 
-          <a href="https://example.com/ima-paper" target="_blank" class="highlight-link">CoX-LMM</a>, 
-          <a href="https://example.com/ima-paper" target="_blank" class="highlight-link">DiffCut</a> and 
-          <a href="https://example.com/ima-paper" target="_blank" class="highlight-link">Skipping Computations</a>, are accepted at NeurIPS 2024.</li> 
-        <li><span class="date">2024-04:</span> <a href="https://arxiv.org/abs/2310.00647" target="_blank" class="highlight-link">Beyond task performance</a> is accepted at ICLR 2024.
-        <li><span class="date">2023-12:</span> <a href="https://arxiv.org/abs/2307.16184" target="_blank" class="highlight-link">UnIVAL</a>: Unified Model for Image, Video, Audio and Language Tasks, is accepted at TMLR 2023: <a href="https://arxiv.org/abs/2307.16184" target="_blank" class="highlight-link">paper</a> and <a href="https://github.com/mshukor/UnIVAL" target="_blank" class="highlight-link">code</a>.
-        <li><span class="date">2023-09:</span> <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/e12a3b98b67e8395f639fde4c2b03168-Abstract-Conference.html" target="_blank" class="highlight-link">Rewarded soups</a> is accepted at NeurIPS 2023.
+    <section class="news" aria-labelledby="updates-heading">
+      <h2 id="updates-heading">Updates</h2>
+
+      <ul class="news-pinned">
+        <li>
+          <span class="orgs"><img src="assets/org-sorbonne.svg" alt="" title="Sorbonne"></span>
+          <span class="news-text"><span class="date">2026-03:</span> I defended my PhD at Sorbonne: <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhp9mRgAAAAJ&citation_for_view=lhp9mRgAAAAJ:TFP_iSt0sucC" target="_blank" rel="noopener noreferrer" class="highlight-link">Efficient and scalable multimodal learning</a>.</span>
+        </li>
+        <li>
+          <span class="orgs"><img src="assets/org-hf.svg" alt="" title="Hugging Face"></span>
+          <span class="news-text"><span class="date">2026-02:</span> <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lhp9mRgAAAAJ&citation_for_view=lhp9mRgAAAAJ:_Qo2XoVZTnwC" target="_blank" rel="noopener noreferrer" class="highlight-link">LeRobot</a> is accepted at ICLR 2026.</span>
+        </li>
+        <li>
+          <span class="orgs"><img src="assets/org-meta.svg" alt="" title="Meta"></span>
+          <span class="news-text"><span class="date">2026-01:</span> We released <a href="https://arxiv.org/abs/2601.10592" target="_blank" rel="noopener noreferrer" class="highlight-link">Action100M</a>, a large-scale video action dataset with ~100M temporally localized segments.</span>
+        </li>
+        <li>
+          <span class="orgs"><img src="assets/org-meta.svg" alt="" title="Meta"></span>
+          <span class="news-text"><span class="date">2025-12:</span> Introducing <a href="https://arxiv.org/abs/2512.10942" target="_blank" rel="noopener noreferrer" class="highlight-link">VL-JEPA</a>, a vision-language model trained in the latent space.</span>
+        </li>
       </ul>
-      
 
-    </div>
-
-  </div>
+      <ul class="news-archive">
+        <li>
+          <span class="orgs"><img src="assets/org-uma.svg" alt="" title="UMA"></span>
+          <span class="news-text"><span class="date">2025-12:</span> We are launching <a href="https://uma.bot/" target="_blank" rel="noopener noreferrer" class="highlight-link">UMA</a>, a company that is building general-purpose humanoids.</span>
+        </li>
+        <li>
+          <span class="orgs"><img src="assets/org-hf.svg" alt="" title="Hugging Face"></span>
+          <span class="news-text"><span class="date">2025-11:</span> <a href="https://github.com/huggingface/VLAb" target="_blank" rel="noopener noreferrer" class="highlight-link">VLAb</a> is out! Our codebase for VLAs pretraining, including <a href="https://arxiv.org/abs/2506.01844" target="_blank" rel="noopener noreferrer" class="highlight-link">SmolVLA</a>.</span>
+        </li>
+        <li>
+          <span class="orgs"><img src="assets/org-apple.svg" alt="" title="Apple"></span>
+          <span class="news-text"><span class="date">2025-09:</span> <a href="https://github.com/apple/ml-l3m" target="_blank" rel="noopener noreferrer" class="highlight-link">l3m</a> is released. Our codebase for large-scale pretraining of <a href="https://arxiv.org/abs/2411.14402" target="_blank" rel="noopener noreferrer" class="highlight-link">AIMv2</a>, CLIP, <a href="https://arxiv.org/abs/2504.07951" target="_blank" rel="noopener noreferrer" class="highlight-link">Native VLMs</a> and LLMs.</span>
+        </li>
+        <li>
+          <span class="orgs"><img src="assets/org-apple.svg" alt="" title="Apple"></span>
+          <span class="news-text"><span class="date">2025-09:</span> <a href="https://arxiv.org/abs/2507.09404" target="_blank" rel="noopener noreferrer" class="highlight-link">Scaling laws for optimal data mixtures</a> is accepted at NeurIPS 2025.</span>
+        </li>
+        <li>
+          <span class="orgs"><img src="assets/org-sorbonne.svg" alt="" title="Sorbonne"></span>
+          <span class="news-text"><span class="date">2025-09:</span> <a href="https://arxiv.org/abs/2508.12815" target="_blank" rel="noopener noreferrer" class="highlight-link">Learning to Steer</a> is accepted at NeurIPS 2025.</span>
+        </li>
+        <li>
+          <span class="orgs"><img src="assets/org-apple.svg" alt="" title="Apple"></span>
+          <span class="news-text"><span class="date">2025-07:</span> <a href="https://arxiv.org/abs/2504.07951" target="_blank" rel="noopener noreferrer" class="highlight-link">Scaling laws for native multimodal models</a> is accepted as an Oral (~top 2%) at ICCV 2025.</span>
+        </li>
+        <li>
+          <span class="orgs"><img src="assets/org-sorbonne.svg" alt="" title="Sorbonne"></span>
+          <span class="news-text"><span class="date">2025-07:</span> <a href="https://arxiv.org/abs/2501.03012" target="_blank" rel="noopener noreferrer" class="highlight-link">Multimodal Steering</a> is accepted at ICCV 2025.</span>
+        </li>
+        <li>
+          <span class="orgs"><img src="assets/org-hf.svg" alt="" title="Hugging Face"></span>
+          <span class="news-text"><span class="date">2025-06:</span> We released <a href="https://arxiv.org/abs/2506.01844" target="_blank" rel="noopener noreferrer" class="highlight-link">SmolVLA</a>, an efficient foundation model for robotics: <a href="https://github.com/huggingface/lerobot/pull/1175" target="_blank" rel="noopener noreferrer" class="highlight-link">code</a> and <a href="https://huggingface.co/blog/smolvla" target="_blank" rel="noopener noreferrer" class="highlight-link">blogpost</a>.</span>
+        </li>
+        <li>
+          <span class="orgs"><img src="assets/org-apple.svg" alt="" title="Apple"></span>
+          <span class="news-text"><span class="date">2025-02:</span> <a href="https://arxiv.org/abs/2411.14402" target="_blank" rel="noopener noreferrer" class="highlight-link">AIMv2</a> is accepted as a Spotlight paper (~top 5%) at CVPR 2025. Released <a href="https://github.com/apple/ml-aim" target="_blank" rel="noopener noreferrer" class="highlight-link">code</a>.</span>
+        </li>
+        <li>
+          <span class="orgs"><img src="assets/org-sorbonne.svg" alt="" title="Sorbonne"></span>
+          <span class="news-text"><span class="date">2024-09:</span>
+            <a href="https://arxiv.org/abs/2405.16700" target="_blank" rel="noopener noreferrer" class="highlight-link">Implicit Multimodal Alignment</a>,
+            <a href="https://arxiv.org/abs/2406.08074" target="_blank" rel="noopener noreferrer" class="highlight-link">CoX-LMM</a>,
+            <a href="https://arxiv.org/abs/2406.02842" target="_blank" rel="noopener noreferrer" class="highlight-link">DiffCut</a> and
+            <a href="https://arxiv.org/abs/2410.09454" target="_blank" rel="noopener noreferrer" class="highlight-link">Skipping Computations</a> are accepted at NeurIPS 2024.</span>
+        </li>
+        <li>
+          <span class="orgs"><img src="assets/org-sorbonne.svg" alt="" title="Sorbonne"></span>
+          <span class="news-text"><span class="date">2024-04:</span> <a href="https://arxiv.org/abs/2310.00647" target="_blank" rel="noopener noreferrer" class="highlight-link">Beyond task performance</a> is accepted at ICLR 2024.</span>
+        </li>
+        <li>
+          <span class="orgs"><img src="assets/org-sorbonne.svg" alt="" title="Sorbonne"></span>
+          <span class="news-text"><span class="date">2023-12:</span> <a href="https://arxiv.org/abs/2307.16184" target="_blank" rel="noopener noreferrer" class="highlight-link">UnIVAL</a> is accepted at TMLR 2023: <a href="https://github.com/mshukor/UnIVAL" target="_blank" rel="noopener noreferrer" class="highlight-link">code</a>.</span>
+        </li>
+        <li>
+          <span class="orgs"><img src="assets/org-sorbonne.svg" alt="" title="Sorbonne"></span>
+          <span class="news-text"><span class="date">2023-09:</span> <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/e12a3b98b67e8395f639fde4c2b03168-Abstract-Conference.html" target="_blank" rel="noopener noreferrer" class="highlight-link">Rewarded soups</a> is accepted at NeurIPS 2023.</span>
+        </li>
+      </ul>
+    </section>
+  </main>
 </body>
 </html>
